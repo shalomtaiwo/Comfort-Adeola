@@ -2,15 +2,15 @@ $(function() {
 
 	$.fn.googleMap = function(params) {
 		params = $.extend( {
-			zoom : 10,
-			coords : [48.895651, 2.290569],
+			zoom : 2,
+			coords : [-33.9236223512334, 18.42733742475706],
 			type : "ROADMAP",
 			debug : false,
 			langage : "english",
-			overviewMapControl: false,
-			streetViewControl: false,
-			scrollwheel: false,
-			mapTypeControl: false
+			overviewMapControl: true,
+			streetViewControl: true,
+			scrollwheel: true,
+			mapTypeControl: true
 		}, params);
 
 		switch(params.type) {
