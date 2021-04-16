@@ -1125,7 +1125,7 @@
                               <h3>How Can I <span>Help You?</span></h3>
                           </div>
 
-                          <form id="contact_form" class="contact-form pageclip-form" action="https://send.pageclip.co/tKczHfTD79GkjVMF4dQ5lz279qNSzxcD" method="post">
+                          <form target="_self" id="contact_form" class="contact-form pageclip-form" action="https://send.pageclip.co/tKczHfTD79GkjVMF4dQ5lz279qNSzxcD" method="post">
 
                               <div class="messages"></div>
 
@@ -1170,12 +1170,19 @@
                               </div>
                           </form>
                       </div>
+                      <?php
+                            if (isset($_POST['user-name'])) {
+                            require "contact_form.php";
 
+                            echo "<div>$message</div>";
+                    }
+                    ?>
                           <!-- This button will have a loading spinner. Keep the inner span for best results. -->
                       <!-- End of Contact Form -->
+
                   </div>
 
-                </div>
+
               </section>
               <!-- End of Contact Subpage -->
             </div>
