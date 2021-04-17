@@ -1,27 +1,8 @@
 <?php
-/*<?php
-  if(isset($_POST['submit'])){
-      $to = "tshalom01@example.com"; // this is your Email address
-      $from = $_POST['email']; // this is the sender's Email address
-      $name = $_POST['name']; // this is the sender's name'
-      $Subject = $_POST['subject'];
-      $subject2 = "Copy of your form submission";
-      $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-      $message2 = "Here is a copy of your message " . $name. "\n\n" . $_POST['message'];
-
-      $headers = "From:" . $from;
-      $headers2 = "From:" . $to;
-      mail($to,$subject,$message,$headers);
-      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-      echo "Message Sent To Comfort Adeola. Thank you " . $name . ", I will contact you shortly.";
-      // You can also use header('Location: thank_you.php'); to redirect to another page.
-      }
-  ?>
-*/
 
 // configure
-$from = 'info@yourdomain.com'; // Replace it with Your Hosting Admin email. REQUIRED!
-$sendTo = 'your@mail.com'; // Replace it with Your email. REQUIRED!
+$from = 'tshalom01@gmail.com'; // Replace it with Your Hosting Admin email. REQUIRED!
+$sendTo = 'comfirst01@gmail.com'; // Replace it with Your email. REQUIRED!
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -96,4 +77,3 @@ else:
 
             echo $encoded;
 endif;
-
