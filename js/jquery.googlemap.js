@@ -66,14 +66,14 @@ $(function() {
 
 			if(!$this.data('googleMap')) {
 				if($this.data('googleDebug'))
-					console.error("jQuery googleMap : Unable to add a marker where there is no map !");
+					
 					
 				return false;
 			}
 
 			if(!params.coords && !params.address) {
 				if($this.data('googleDebug'))
-					console.error("jQuery googleMap : Unable to add a marker if you don't tell us where !");
+					
 					
 				return false;
 			}
@@ -160,7 +160,7 @@ $(function() {
 
 						} else {
 							if($this.data('googleDebug'))
-								console.error("jQuery googleMap : Unable to find the place asked for the marker ("+status+")");
+								
 						}
 					});
 				}($this);
@@ -242,7 +242,7 @@ $(function() {
 
     			if(!$this.data('googleMap')) {
     				if($this.data('googleDebug'))
-      					console.log("jQuery googleMap : Unable to delete a marker where there is no map !");
+      					
       					
       				return false;
     			}
@@ -253,12 +253,12 @@ $(function() {
     				$markers[id].setMap(null);
     				
       				if($this.data('googleDebug'))
-      					console.log('jQuery googleMap : marker deleted');
+      					
       					
       				return true;
     			} else {
       				if($this.data('googleDebug'))
-      					console.error("jQuery googleMap : Unable to delete a marker if it not exists !");
+      					
       		
       				return false;
     			}
@@ -326,13 +326,13 @@ $(function() {
 	              						way.setDirections(response);
 	            					} else {
 	              						if($that.data('googleDebug'))
-	            							console.error("jQuery googleMap : Unable to find the place asked for the route ("+response+")");
+	            							
 	            					}
 		        			});
 
 	        			} else {
 	          				if($that.data('googleDebug'))
-	          					console.error("jQuery googleMap : Address not found");
+	          					
 	        			}
 		    		});
 	    		}($(this));
@@ -350,7 +350,7 @@ $(function() {
 					way.setDirections(response);
 				} else {
 					if($(this).data('googleDebug'))
-          					console.error("jQuery googleMap : Address not found");
+          					
 				}
 			});
 		}
