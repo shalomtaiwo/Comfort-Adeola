@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b4198e-8f41-4756-82ab-60faf08de9f6" name="Default Changelist" comment="5 years to 12 years&#10;map removed">
+    <list default="true" id="48b4198e-8f41-4756-82ab-60faf08de9f6" name="Default Changelist" comment="new portolio images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620353788455</updated>
       <workItem from="1620353795807" duration="2468000" />
-      <workItem from="1620416593662" duration="3037000" />
+      <workItem from="1620416593662" duration="4373000" />
     </task>
     <task id="LOCAL-00001" summary="5 years to 12 years&#10;map removed">
       <created>1620416825253</created>
@@ -46,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620416825253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new portolio images">
+      <created>1620496888442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620496888442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5 years to 12 years&#10;map removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 years to 12 years&#10;map removed" />
+    <MESSAGE value="new portolio images" />
+    <option name="LAST_COMMIT_MESSAGE" value="new portolio images" />
   </component>
 </project>
